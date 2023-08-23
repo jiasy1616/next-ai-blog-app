@@ -1,9 +1,9 @@
 import { NextResponse } from "next/server";
 import OpenAI from "openai";
-import { AxiosResponse } from "axios";
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
+  baseURL: `https://api.openai-proxy.com/v1`,
 });
 
 export async function POST(request: Request, response: any) {
