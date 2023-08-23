@@ -4,6 +4,16 @@ const prisma: PrismaClient = new PrismaClient();
 
 const posts = [
   {
+    category: "Travel",
+    title: "Exploring the Beauty of Yellowstone National Park",
+    content:
+      "<h1>Discovering the <em>Natural Wonders</em> of <strong>Yellowstone National Park</strong></h1><p>Yellowstone National Park is one of the most iconic and beautiful destinations in the United States. Known for its geysers, hot springs, and diverse wildlife, the park offers visitors a chance to explore the natural beauty of the American West.</p><h2>Geysers and Hot Springs</h2><p>One of the most popular features of Yellowstone National Park are the geysers and hot springs. The famous Old Faithful geyser is a must-see attraction, as it erupts every 91 minutes on average. Additionally, the park boasts more than 10,000 thermal features, including hot springs, mud pots, and fumaroles.</p><h3>Wildlife and Scenery</h3><p>In addition to the geysers and hot springs, Yellowstone National Park is home to a wide variety of wildlife. Visitors have the opportunity to see bison, elk, bears, and wolves, among other animals. The park also offers breathtaking scenery, from the colorful Grand Canyon of the Yellowstone to the serene beauty of the Lamar Valley.</p><h2>Activities and Accommodations</h2><p>Yellowstone National Park offers a variety of activities for visitors, including hiking, fishing, and camping. The park also has a number of visitor centers and museums that provide information about the park's history and geology. For accommodations, the park has several campgrounds, as well as hotels and lodges within the park boundaries.</p><h3>A visit to remember</h3><p>A visit to Yellowstone National Park is an experience that will be remembered for a lifetime. The natural wonders of the park, combined with the opportunity to see a wide variety of wildlife and scenery, make it a must-see destination for nature lovers and outdoor enthusiasts.</p>",
+    author: "Jane Smith",
+    image: "/assets/vacation-4.jpg",
+    snippet:
+      "Discovering the Natural Wonders of Yellowstone National Park Yellowstone National Park is one of the most iconic and beautiful destinations in the United States. Known for its geysers, hot springs, and diverse wildlife, the park offers visitors a chance to explore the natural beauty of the American West. Geysers and Hot Springs One of the m...",
+  },
+  {
     category: "Tech",
     title: "AI is eating humans for knowledge",
     content:
@@ -82,16 +92,6 @@ const posts = [
     image: "/assets/vacation-3.jpg",
     snippet:
       "Discovering the Beauty of Santorini, Greece Santorini is a small island located in the Aegean Sea, and it is a popular tourist destination known for its stunning beaches, crystal-clear waters, and picturesque villages. The island has become famous for its white-washed buildings, blue-domed churches, and breathtaking sunsets. Fira, the Capita...",
-  },
-  {
-    category: "Travel",
-    title: "Exploring the Beauty of Yellowstone National Park",
-    content:
-      "<h1>Discovering the <em>Natural Wonders</em> of <strong>Yellowstone National Park</strong></h1><p>Yellowstone National Park is one of the most iconic and beautiful destinations in the United States. Known for its geysers, hot springs, and diverse wildlife, the park offers visitors a chance to explore the natural beauty of the American West.</p><h2>Geysers and Hot Springs</h2><p>One of the most popular features of Yellowstone National Park are the geysers and hot springs. The famous Old Faithful geyser is a must-see attraction, as it erupts every 91 minutes on average. Additionally, the park boasts more than 10,000 thermal features, including hot springs, mud pots, and fumaroles.</p><h3>Wildlife and Scenery</h3><p>In addition to the geysers and hot springs, Yellowstone National Park is home to a wide variety of wildlife. Visitors have the opportunity to see bison, elk, bears, and wolves, among other animals. The park also offers breathtaking scenery, from the colorful Grand Canyon of the Yellowstone to the serene beauty of the Lamar Valley.</p><h2>Activities and Accommodations</h2><p>Yellowstone National Park offers a variety of activities for visitors, including hiking, fishing, and camping. The park also has a number of visitor centers and museums that provide information about the park's history and geology. For accommodations, the park has several campgrounds, as well as hotels and lodges within the park boundaries.</p><h3>A visit to remember</h3><p>A visit to Yellowstone National Park is an experience that will be remembered for a lifetime. The natural wonders of the park, combined with the opportunity to see a wide variety of wildlife and scenery, make it a must-see destination for nature lovers and outdoor enthusiasts.</p>",
-    author: "Jane Smith",
-    image: "/assets/vacation-4.jpg",
-    snippet:
-      "Discovering the Natural Wonders of Yellowstone National Park Yellowstone National Park is one of the most iconic and beautiful destinations in the United States. Known for its geysers, hot springs, and diverse wildlife, the park offers visitors a chance to explore the natural beauty of the American West. Geysers and Hot Springs One of the m...",
   },
   {
     category: "Travel",
