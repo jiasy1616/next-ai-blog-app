@@ -3,7 +3,7 @@ import OpenAI from "openai";
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
-  baseURL: `https://api.openai-proxy.com/v1`,
+  baseURL: `https://api.openai.com/v1`,
 });
 
 export async function POST(request: Request, response: any) {
